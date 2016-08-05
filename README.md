@@ -1,6 +1,6 @@
 # Buff::RubyEngine
-[![Gem Version](https://badge.fury.io/rb/buff-ruby_engine.png)](http://badge.fury.io/rb/buff-ruby_engine)
-[![Build Status](https://travis-ci.org/RiotGames/buff-ruby_engine.png?branch=master)](https://travis-ci.org/RiotGames/buff-ruby_engine)
+[![Gem Version](https://badge.fury.io/rb/buff-ruby_engine.svg)](http://badge.fury.io/rb/buff-ruby_engine)
+[![Build Status](https://travis-ci.org/berkshelf/buff-ruby_engine.svg?branch=master)](https://travis-ci.org/berkshelf/buff-ruby_engine)
 
 A mixin for querying the platform running Ruby
 
