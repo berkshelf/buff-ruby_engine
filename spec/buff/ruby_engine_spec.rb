@@ -7,13 +7,13 @@ describe Buff::RubyEngine do
     context "when the ruby engine is jruby" do
       before { stub_const("RUBY_ENGINE", "jruby") }
 
-      it { expect(subject).to be_true }
+      it { expect(subject).to be true }
     end
 
     context "when the ruby engine is not jruby" do
       before { stub_const("RUBY_ENGINE", "ruby") }
 
-      it { expect(subject).to be_false }
+      it { expect(subject).to be false }
     end
   end
 
@@ -23,13 +23,13 @@ describe Buff::RubyEngine do
     context "when the ruby engine is mri" do
       before { stub_const("RUBY_ENGINE", "ruby") }
 
-      it { expect(subject).to be_true }
+      it { expect(subject).to be true }
     end
 
     context "when the ruby engine is not mri" do
       before { stub_const("RUBY_ENGINE", "jruby") }
 
-      it { expect(subject).to be_false }
+      it { expect(subject).to be false }
     end
   end
 
@@ -39,13 +39,13 @@ describe Buff::RubyEngine do
     context "when the ruby engine is rubinius" do
       before { stub_const("RUBY_ENGINE", "rbx") }
 
-      it { expect(subject).to be_true }
+      it { expect(subject).to be true }
     end
 
     context "when the ruby engine is not rubinius" do
       before { stub_const("RUBY_ENGINE", "mri") }
 
-      it { expect(subject).to be_false }
+      it { expect(subject).to be false }
     end
   end
 end
