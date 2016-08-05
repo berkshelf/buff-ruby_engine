@@ -16,17 +16,17 @@ class Default < Thor
 
     desc "build", "Build buff-ruby_engine-#{Buff::RubyEngine::VERSION}.gem into the pkg directory"
     def build
-      Rake::Task["build"].execute
+      Rake::Task["build"].invoke
     end
 
     desc "install", "Build and install buff-ruby_engine-#{Buff::RubyEngine::VERSION}.gem into system gems"
     def install
-      Rake::Task["install"].execute
+      Rake::Task["install"].invoke
     end
 
     desc "release", "Create tag v#{Buff::RubyEngine::VERSION} and build and push buff-ruby_engine-#{Buff::RubyEngine::VERSION}.gem to Rubygems"
     def release
-      Rake::Task["release"].execute
+      Rake::Task["release"].invoke
     end
   end
 
