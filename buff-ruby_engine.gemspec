@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jamie@vialstudios.com"]
   spec.description   = %q{A mixin for querying the platform running Ruby}
   spec.summary       = %q{Buff up your code with a mixin for querying the platform running Ruby}
-  spec.homepage      = "https://github.com/RiotGames/buff-ruby_engine"
+  spec.homepage      = "https://github.com/berkshelf/buff-ruby_engine"
   spec.license       = "Apache 2.0"
 
   spec.files         = `git ls-files`.split($/)
